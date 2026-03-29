@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.11"
-  version: "0.0.3"
+  version: "0.0.4"
 
 package:
   name: ramp-coremaker
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/ramp-coremaker/ramp_coremaker-${{ version }}.tar.gz
-  sha256: b188f3deb9fb38aa44aeda8325ad2088d642aee6dbbc991b310a408bb5e30298
+  sha256: 59b1b716246a87ae4c076c5c3a153e4d698e8e5bc634ca578b119c4a9ab495b0
 
 build:
   number: 0
